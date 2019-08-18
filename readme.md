@@ -113,7 +113,6 @@ password: demo123
 <img src="./screenshot/attendance.jpg" >
 <img src="./screenshot/grade.png" >
 <img src="./screenshot/rules.png" >
-<img src="./screenshot/marksheet.jpg" >
 <img src="./screenshot/home.png" >
 
 # Security Vulnerabilities
