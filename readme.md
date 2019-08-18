@@ -28,7 +28,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">NeatCourses</h3>
+  <h2 align="center">NeatCourses</h2>
 
   <p align="center">
     I embarked upon a journey with little resource, little hope but with enormous zeal... 
@@ -65,7 +65,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 ShoppingKori is an online shopping application which offers a digital platform for
 vendors as well as customers for selling and buying Bengali Products.
 # Feature List
@@ -96,7 +96,17 @@ vendors as well as customers for selling and buying Bengali Products.
 - Google Analytics
 - User Notificateion
 
-Technology is supposed to make our life easier and convenient. So I embarked upon a journey to complete this project with enormous zeal. Having taken a few gallant strides forward, I took my time, I sat back to contemplate what more I could develop to make our life easier and comfortable. As a person, I do not aim at confining ourselves within the realm of existing technology. So I hereby call all the creative, thinking minds in open arms to contribute in this project and enrich myself with myriads of creative excellence and challenge myself to develop something fresh everyday and stand out from the rest.
+# A Brief Overview
+<img src="./screenshot/ce/dashboard.png" >
+<img src="./screenshot/site-dashboard.png" >
+<img src="./screenshot/ce/menu.png" >
+<img src="./screenshot/list.png" >
+<img src="./screenshot/ce/profile-st.png" >
+<img src="./screenshot/id-2.png" >
+<img src="./screenshot/attendance.jpg" >
+<img src="./screenshot/grade.png" >
+<img src="./screenshot/rules.png" >
+<img src="./screenshot/home.png" >
 
 ### Built With
 * [LoopBack](https://loopback.io/): LoopBack is a highly extensible, open-source Node.js framework based on Express that enables to quickly create APIs and microservices composed from backend systems such as databases and REST services. 
