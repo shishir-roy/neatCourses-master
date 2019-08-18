@@ -27,11 +27,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/shishir1310/shoppingkori-master">
-    <img src="https://shop.werbangali.com/logo/sm/wrb_shop_wide.png" alt="Logo" width="500pixels" height="200pixels">
-  </a>
 
-  <h3 align="center">shoppingKori.com</h3>
+  <h3 align="center">NeatCourses</h3>
 
   <p align="center">
     I embarked upon a journey with little resource, little hope but with enormous zeal... 
@@ -112,30 +109,72 @@ Technology is supposed to make our life easier and convenient. So I embarked upo
 To set this project locally follow the following instructions:
 ### Prerequisites
 
-Two things that need to installed in the machine.
-* Node.js
-* MongoDB
+Following things that need to installed in the machine.
+- PHP >= 7.1.3
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+- Ctype PHP Extension
+- JSON PHP Extension
+- NodeJS, npm, webpack
 
 ### Installation
 
-1. Clone the repo
-```sh
-git clone https://github.com/shishir1310/shoppingkori-master.git
 ```
-2. Install LoopBack 4 CLI
-```sh
-$ npm install -g @loopback/cli
-```
-3. Change the directory for each three different project and start them at different ports.
-``` sh
-$ cd getting-started
-$ npm start
-```
-4. Test your application
-```sh
-Visit http://127.0.0.1:3000/ecommerce
-```
+$ git clone https://github.com/shishir1310/neatCourses-master.git
 
+```
+```
+$ cd neatCourses-master
+```
+```
+$ cp .env.example .env
+```
+**Change configuration according to your need in ".env" file and create Database**
+```
+$ composer install
+```
+```
+$ php artisan migrate
+```
+```
+$ php artisan db:seed
+```
+**Load demo data**
+```
+$ php artisan db:seed --class DemoSiteDataSeeder
+```
+```
+$ php artisan db:seed --class DemoAppDataSeeder
+```
+**Clear cache**
+```
+$ sudo php artisan cache:clear
+```
+```
+$ npm install
+```
+```
+$ npm run backend-prod
+```
+```
+$ npm run frontend-prod
+```
+```
+$ php artisan storage:link
+```
+```
+$ php artisan serve
+```
+Now visit and login: [http://localhost:8000](http://localhost:8000) \
+username: admin\
+password: demo123
+
+
+**N.B:**
+- For sms and email processing you need to run laravel queue worker. `bin` folder has supervisor config for start queue worker with supervisor.
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -178,8 +217,7 @@ Project Link: [https://github.com/shishir1310/shoppingkori-master](https://githu
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Tanmoy Krishna Das](https://github.com/Tanmoytkd)
-* [Sabikun Nahar Nammi](#)
+* [Partha Protim Das](#)
 
 
 
