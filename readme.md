@@ -108,8 +108,8 @@ vendors as well as customers for selling and buying Bengali Products.
 
 
 ### Built With
-* [LoopBack](https://loopback.io/): LoopBack is a highly extensible, open-source Node.js framework based on Express that enables to quickly create APIs and microservices composed from backend systems such as databases and REST services. 
-* [MongoDB](https://www.mongodb.com/): MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need. 
+* [Laravel](https://laravel.com/): Laravel is the most famous as it helps to develop a website using a simple and a clean code in a short time. This web application framework has elegant and expressive syntax. Tasks in the web projects such as authentication, routing, sessions, queuing and catching are made easier.
+* [MySQL](https://www.mysql.com/): MySQL is a freely available open source Relational Database Management System (RDBMS) that uses Structured Query Language (SQL). SQL is the most popular language for adding, accessing and managing content in a database. It is most noted for its quick processing, proven reliability, ease and flexibility of use.
 
 
 <!-- GETTING STARTED -->
