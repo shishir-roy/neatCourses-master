@@ -28,10 +28,9 @@
 <br />
 <p align="center">
 
-  <h2 align="center">Neat Courses</h2>
+  <h1 align="center">Neat Courses</h1>
 
   <p align="center">
-    I embarked upon a journey with little resource, little hope but with enormous zeal... 
     <br />
     <a href="https://github.com/shishir1310/neatCourses-master"><strong>Explore the docs »</strong></a>
     <br />
