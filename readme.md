@@ -118,35 +118,74 @@ vendors as well as customers for selling and buying Bengali Products.
 To set this project locally follow the following instructions:
 ### Prerequisites
 
-Two things that need to installed in the machine.
-* Node.js
-* MongoDB
+Following things that need to installed in the machine.
+- PHP >= 7.1.3
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+- Ctype PHP Extension
+- JSON PHP Extension
+- NodeJS, npm, webpack
 
 ### Installation
 
-1. Clone the repo
-```sh
-git clone https://github.com/shishir1310/shoppingkori-master.git
 ```
-2. Install LoopBack 4 CLI
-```sh
-$ npm install -g @loopback/cli
+$ git clone https://github.com/hrshadhin/school-management-system.git
+
 ```
-3. Change the directory for each three different project and start them at different ports.
-``` sh
-$ cd getting-started
-$ npm start
 ```
-4. Test your application
-```sh
-Visit http://127.0.0.1:3000/ecommerce
+$ cd school-management-system
 ```
+```
+$ cp .env.example .env
+```
+**Change configuration according to your need in ".env" file and create Database**
+```
+$ composer install
+```
+```
+$ php artisan migrate
+```
+```
+$ php artisan db:seed
+```
+**Load demo data**
+```
+$ php artisan db:seed --class DemoSiteDataSeeder
+```
+```
+$ php artisan db:seed --class DemoAppDataSeeder
+```
+**Clear cache**
+```
+$ sudo php artisan cache:clear
+```
+```
+$ npm install
+```
+```
+$ npm run backend-prod
+```
+```
+$ npm run frontend-prod
+```
+```
+$ php artisan storage:link
+```
+```
+$ php artisan serve
+```
+Now visit and login: [http://localhost:8000](http://localhost:8000) \
+username: admin\
+password: demo123
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/shishir1310/shoppingkori-master/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/shishir1310/neatCourses-master/issues) for a list of proposed features (and known issues).
 
 
 
@@ -184,8 +223,7 @@ Project Link: [https://github.com/shishir1310/shoppingkori-master](https://githu
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Tanmoy Krishna Das](https://github.com/Tanmoytkd)
-* [Sabikun Nahar Nammi](#)
+* [Partha Protim Das](#)
 
 
 
